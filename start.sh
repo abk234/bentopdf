@@ -84,7 +84,7 @@ find_available_port() {
 }
 
 # Get port from environment variable or use default
-DEFAULT_PORT=${BENTOPDF_PORT:-8080}
+DEFAULT_PORT=${BENTOPDF_PORT:-8081}
 SELECTED_PORT=$DEFAULT_PORT
 
 # Check if the default port is available

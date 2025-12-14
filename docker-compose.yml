@@ -6,4 +6,4 @@ services:
     container_name: bentopdf
     restart: unless-stopped
     ports:
-      - '${BENTOPDF_PORT:-8080}:8080'
+      - '${BENTOPDF_PORT:-8081}:8080'
